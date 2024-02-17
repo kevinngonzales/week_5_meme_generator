@@ -1,42 +1,70 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #faf9f6;
+}
+
+.header {
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(180deg, #598d3e 60%, #0440fb);
+  color: white;
+  padding: 20px;
+}
+.header_img {
+  height: 100px;
+  margin-right: 30px;
+}
+
+.header_title {
+  font-size: 50px;
+  margin-right: auto;
+}
+
+.form_label {
+  display: flex;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 20px;
+  font-size: large;
+}
+
+.form_button {
+  grid-column: 1 / -1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  border: 2px solid #598d3e;
+  background: linear-gradient(180deg, #598d3e 60%, #0440fb);
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+
+.form_input {
+  margin-left: 20px;
+  height: 2em;
+  width: 45em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 6px;
+  border: 2px solid #0440fb;
+}
+
+main {
+  padding: 30px;
+}
+
+.meme_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40rem;
+  max-height: 40rem;
   padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
