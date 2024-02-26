@@ -2,7 +2,7 @@
 
 
 ## About
-A meme generator! User can click a button and generate a random meme image. 
+A meme generator! User can click a button and generate a random meme image. User can also customize text on image through two input boxes, one for top text and one for bottom text. 
 
 ## Technologies
 **Languages:** Javascript, HTML, CSS  
