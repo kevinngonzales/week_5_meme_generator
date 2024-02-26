@@ -1,4 +1,4 @@
-# week_1_exercise_CRUD
+# week_5_meme_generator
 
 
 ## About
@@ -15,7 +15,7 @@ A meme generator! User can click a button and generate a random meme image. User
 
 2. Open with VS Code
 
-3. Navigate to root folder of project in terminal "cd .\week_1_exercise_CRUD"
+3. Navigate to root folder of project in terminal "cd .\week_5_meme_generator"
 
 4. In terminal run "npm install" to install dependencies
 
